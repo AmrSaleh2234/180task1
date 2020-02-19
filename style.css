@@ -499,6 +499,11 @@ ul li
     display: flex;
     flex-direction: column;
 }
+.column3 .verify ul
+{
+    position: absolute;
+    right: 10px;
+}
 .column3 .verify p
 {
     color:#888;
