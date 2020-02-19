@@ -1,0 +1,523 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+    background-color: #f3e7e7;
+    font-family: Arial,Tahoma;
+  
+}
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;width:1100px;
+   
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+ul
+{
+    list-style: none;
+    float:right;
+    margin-left:2px;
+    margin-top: 2px;
+}
+
+ul li
+{
+    border-radius:50%;
+    width :3px;
+    height: 3px;
+    background-color: #69696b;
+    margin: 3px;
+}
+
+/*start account*/
+
+.column1 .person ,.column3 .person
+{
+    display: flex;
+    width:300px;
+    background-color: #FFF;
+    border-radius: 10px 10px;
+    margin:30px 10px 10px 80px;
+    padding: 10px;
+    box-shadow: 4px 4px 3px #e6dadc,
+                -4px -4px 3px#e6dadc;  
+}
+.column1 .person.black
+{
+    background-color: #09092b;
+}
+.column1 .person .img ,.column3 .person .img
+{
+    width:30%;
+  
+}
+.column1 .person .img img ,.column3 .person .img img
+.column1 .person .img img ,.column3 .person .img img
+{
+    border-radius: 50%;
+    width :60px;
+    height: 60px;
+    height: 60px;
+    
+}
+.column1 .person  .info,.column3 .person  .info
+{
+    width :70%;
+    overflow: hidden;
+}
+ .column1 .person  .info h3,.column3 .person .info h3
+{
+    color: #b9b8c0;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    
+}
+
+.column1 .person .info p:first-of-type,.column3 .person .info p:first-of-type
+{
+    color: #bdbcc1;
+    width: 80px;
+    font-size: 10px;
+    float: left;
+}
+.column1 .person .info p:last-of-type ,.column3 .person .info p:last-of-type 
+{
+    color: #bcbbc1;
+    font-size: 10px;
+    float: right;
+    margin-top: 25px;
+}
+/*end account*/
+/*-----------------------------------------------------*/
+/*start profile*/
+.profile
+{
+     margin:30px 10px 10px 80px;
+     background-color: #FFF;
+     width:300px;
+     text-align: center;
+     padding: 30px;
+     border-radius: 10px 10px;
+     box-shadow: 4px 4px 3px #e6dadc,
+                -4px -4px 3px#e6dadc;  
+    
+}
+.profile .img 
+{
+   margin-bottom: 30px;
+    text-align: center
+
+}
+.profile .img img
+{
+    width :100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #fbffff;
+    background-color: #e6f3f9;
+}
+.profile .name
+{
+    color:#666672;
+}
+.profile .info
+{
+    
+    display: flex;
+    justify-content: center;
+}
+.profile .info >div:first-of-type
+{
+    border-right: 1px solid #ebebeb;
+}
+.profile .info >div
+{
+    margin-top: 30px;
+    width: 50%;
+    color: #cccbd0;
+}
+.profile .info >div p:first-of-type
+{
+    font-weight: bold;
+    color: #6a696f
+}
+.profile button
+{
+    color: #64bad1;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #5dd1e0;
+    border-radius: 10px 10px;
+    width: 150px;
+    height: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.profile button:hover{
+    color:#FFF;
+    background: #5dd1e0;
+}
+/*end profile*/
+/*-------------------------------------------------------------------*/
+.contact
+{
+    
+}
+.contact .person
+{
+    background-color: #fff;
+    width: 600px;
+    margin:30px 10px 10px 80px;
+    border-radius: 10px 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 3px #e6dadc,
+                -4px -4px 3px#e6dadc;
+    display: flex;
+}
+.contact .person .img 
+{
+    width: 10%;
+    margin-right: 25px;
+}
+
+.contact .person .img img
+{
+    border-radius: 50%;
+    width :60px;
+    height: 60px;
+    
+}
+.contact .person .info
+
+{
+    width:90%;
+    overflow: hidden;
+}
+.contact .person .info >div:first-of-type
+{
+    float:left;
+}
+.contact .person .info >div:first-of-type h4
+{
+    margin-bottom: 5px;
+    color: #a3a3a5;
+}
+.contact .person .info >div:first-of-type p
+{
+    color:#b9b8c0;   
+}
+.contact .person .info >div:last-of-type
+{
+    float :right;
+    margin-top: 20px;
+    overflow: :hidden;
+}
+.contact .person .info >div:last-of-type button:first-of-type
+{
+    background-color: transparent;
+    border:1px solid #e2e0eb;
+    border-radius: 10px 0 0 10px;
+    color:#978dc9;
+    margin-right: 3px;
+    float: left;.
+    cursor: pointer;
+    box-shadow: .5px .5px #ddddde,
+                -.5px -.5px #ddddde;
+}
+
+.contact .person .info >div:last-of-type button:last-of-type
+{
+    background-color: transparent;
+    border:1px solid #e2e0eb;
+    border-radius: 0 10px 10px 0;
+    color:#978dc9;
+    margin-right: 8px;
+    border-left: .4px solid #ddddde;
+    float:left;
+    cursor: pointer;
+    box-shadow: .5px .5px #ddddde,
+                -.5px -.5px #ddddde;
+}
+/*--------------------------------------------*/
+.website
+{
+    background: #FFF;
+    border-radius:10px 10px  10px 10px;
+    padding-bottom: 10px;
+    margin-top:30px;
+}
+.column2 .website .img
+{
+      box-shadow: 0px 10px 8px #c1c1c1;
+    width:  270px;
+    height: 240px;
+     border-radius:10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+.column2 .website .img img
+{
+    width:  270px;
+    height: 240px;
+    border-radius:10px 10px 10px 10px;
+}
+.column2 .website.netflix .img img
+{
+    width:  200px;
+    height: 210px;
+    border-radius:10px 10px 10px 10px;
+}
+.website .text 
+{
+    overflow: hidden;
+}
+.website .text h4 ,.website .text p
+{
+    color: #6d6c74;
+   margin-left: 10px;
+}
+
+.website .text p
+{
+    margin-top:10px;
+    width:95%;
+}
+.website ul
+{
+   
+    width:10%;
+    float: right;
+    margin-top: -35px;
+}
+.column2 .website:last-of-type
+
+{
+    text-align: center;
+}
+.column2 .website:last-of-type .img 
+{
+    box-shadow: 0 0 0 #FFF;
+    height: 150px;
+}
+.column2 .website:last-of-type .img img
+{
+     height: 150px;
+}
+.column2 .website:last-of-type .text h4
+{
+    font-weight: bold;
+    margin-top: 0
+}
+.column2 .website:last-of-type .text p
+
+ {
+        font-size: 12px;
+ }
+
+/**----------------------------------------------------*/
+/*start App*/
+.column3 .App
+{
+    width:300px;
+    height: 200px;
+    background-color: #FFF;
+     border-radius: 10px 10px;
+     box-shadow: 4px 4px 3px #e6dadc,
+                -4px -4px 3px#e6dadc;  
+    padding: 10px 0 10px 10px;
+    margin-top: 30px;
+}
+.column3 .App .con
+{
+    display: flex;
+       
+}
+.column3 .App .con .img img
+{
+     width:80px;
+    height: 80px;
+    margin-right: 15px;
+   
+}
+.column3 .App .con .img img
+{
+    width:90px;
+    height: 90px;
+}
+.column3 .App .con .text h4
+{
+    margin-top: 15px;
+  
+  
+}
+.column3 .App .con .text ul
+{
+    width:2%
+}
+
+.column3 .App .con .text p
+{
+    margin-top: 3px;
+    font-size:13px;
+    
+}
+.column3 .App  .ongoing .progress
+{
+    margin-top: 20px;
+    background-color: #DDD;
+    display: block;
+    width: 250px;
+    height: 10px;
+    
+}
+.column3 .App  .ongoing .progress span
+{
+    background-color: #76f8ae;
+    display: block;
+    height: 10px;
+    color:#FFF;
+    text-align: right;
+    font-size: 10px;
+}
+.column3 .App  .ongoing button
+
+{
+    background-color: #d6ffea;
+    color: #65b88c;
+    border: none;
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 5px;
+}
+/*--------------------------------------------------*/
+/*start person 2*/
+.column3 .person
+{
+    margin-left: 0;
+}
+.column3 .person ul
+{
+    margin-top: -5px;
+}
+/*----------------------------------------------------*/
+/* change contact */
+.column3 .contact .person 
+{
+    width:300px;
+}
+.column3 .contact .person .img 
+{
+    margin-right: 50px;
+}
+.column3 .contact .person .info p:last-of-type 
+{
+    margin-top: 5px;
+}
+/*----------------------------------------------------*/
+/*sart tools*/
+.column3 .tools
+{
+     background-color: #fff;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 3px #e6dadc,
+                -4px -4px 3px#e6dadc; 
+    position: relative;
+    
+}
+.column3 .tools h3
+{
+    margin-bottom: 5px;
+}
+
+.column3 .tools p
+{
+   color: #bcbbc1;
+}
+.column3 .tools>div
+{
+    display: flex;
+}
+.column3 .tools>div div
+{
+    width: 30px;
+    height: 30px;
+   margin: 10px 5px;
+    border-radius: 3px 3px;
+    color: #FFF;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.column3 .tools>div div:first-child
+{
+    background: #1d10c0;
+}
+.column3 .tools>div div:nth-child(2)
+{
+    background-color: #ffa541;
+}
+.column3 .tools>div div:nth-child(3)
+{
+    background-color: #bf24e0;
+}
+.column3 .tools>div div:nth-child(4)
+{
+       font-size: 40px;
+       background-color: #e3d9fb;
+    color: #988ded;
+}
+/*------end tools------------------------/
+/*------------------------------------------------------*/
+/*start verify*/
+.column3 .verify
+{
+     background-color: #fff;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 3px #e6dadc,
+                -4px -4px 3px#e6dadc; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.column3 .verify p
+{
+    color:#888;
+    margin-top: 20px;
+}
+.column3 .verify input
+{
+    border-radius: 50px 50px;
+        width:270px;
+    height: 30px;
+    margin :50px auto;
+    border:none;
+    background-color: #e7f1f2;
+}
+.column3 .verify button
+
+{
+    background-color: transparent;
+    border: none;
+    color: darkorchid;
+    cursor: pointer;
+}
